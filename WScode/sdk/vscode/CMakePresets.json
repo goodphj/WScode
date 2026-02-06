@@ -8,76 +8,80 @@
       "name": "debug",
       "displayName": "debug",
       "generator": "Ninja",
-      "binaryDir": "${fileDir}/${presetName}",
-      "toolchainFile": "$env{SdkRootDirPath}/tools/cmake_toolchain_files/armgcc.cmake",
+      "binaryDir": "C:/nxp/GUI-Guider-Projects/WScode/WScode/sdk/vscode/debug",
+      "toolchainFile": "C:/nxp/GUI-Guider-Projects/WScode/WScode/sdk/armgcc/armgcc.cmake",
       "inherits": "debug-env",
       "cacheVariables": {
-        "POSTPROCESS_UTILITY": "$env{POSTPROCESS_UTILITY}",
+        "CMAKE_MAKE_PROGRAM": "C:/Users/VC/.mcuxpressotools/ninja-1.12.1/ninja.exe",
+        "POSTPROCESS_UTILITY": "C:/Users/VC/.mcuxpressotools/mcux-fixelf-14.2.2/mcux-fixelf.exe",
         "LIBRARY_TYPE": "NEWLIB",
         "LANGUAGE": "C",
         "DEBUG_CONSOLE": "UART",
         "CMAKE_BUILD_TYPE": "debug",
-        "SdkRootDirPath": "$env{SdkRootDirPath}",
-        "CMAKE_RUNTIME_OUTPUT_DIRECTORY": "$env{binaryDir}",
-        "CMAKE_LIBRARY_OUTPUT_DIRECTORY": "$env{binaryDir}",
-        "CMAKE_ARCHIVE_OUTPUT_DIRECTORY": "$env{binaryDir}"
+        "SdkRootDirPath": "C:/nxp/GUI-Guider-Projects/WScode/WScode/sdk",
+        "CMAKE_RUNTIME_OUTPUT_DIRECTORY": "C:/nxp/GUI-Guider-Projects/WScode/WScode/sdk/vscode/debug",
+        "CMAKE_LIBRARY_OUTPUT_DIRECTORY": "C:/nxp/GUI-Guider-Projects/WScode/WScode/sdk/vscode/debug",
+        "CMAKE_ARCHIVE_OUTPUT_DIRECTORY": "C:/nxp/GUI-Guider-Projects/WScode/WScode/sdk/vscode/debug"
       }
     },
     {
       "name": "flash_debug",
       "displayName": "flash_debug",
       "generator": "Ninja",
-      "binaryDir": "${fileDir}/${presetName}",
-      "toolchainFile": "$env{SdkRootDirPath}/tools/cmake_toolchain_files/armgcc.cmake",
+      "binaryDir": "C:/nxp/GUI-Guider-Projects/WScode/WScode/sdk/vscode/flash_debug",
+      "toolchainFile": "C:/nxp/GUI-Guider-Projects/WScode/WScode/sdk/armgcc/armgcc.cmake",
       "inherits": "flash_debug-env",
       "cacheVariables": {
-        "POSTPROCESS_UTILITY": "$env{POSTPROCESS_UTILITY}",
+        "CMAKE_MAKE_PROGRAM": "C:/Users/VC/.mcuxpressotools/ninja-1.12.1/ninja.exe",
+        "POSTPROCESS_UTILITY": "C:/Users/VC/.mcuxpressotools/mcux-fixelf-14.2.2/mcux-fixelf.exe",
         "LIBRARY_TYPE": "NEWLIB",
         "LANGUAGE": "C",
         "DEBUG_CONSOLE": "UART",
         "CMAKE_BUILD_TYPE": "flash_debug",
-        "SdkRootDirPath": "$env{SdkRootDirPath}",
-        "CMAKE_RUNTIME_OUTPUT_DIRECTORY": "$env{binaryDir}",
-        "CMAKE_LIBRARY_OUTPUT_DIRECTORY": "$env{binaryDir}",
-        "CMAKE_ARCHIVE_OUTPUT_DIRECTORY": "$env{binaryDir}"
+        "SdkRootDirPath": "C:/nxp/GUI-Guider-Projects/WScode/WScode/sdk",
+        "CMAKE_RUNTIME_OUTPUT_DIRECTORY": "C:/nxp/GUI-Guider-Projects/WScode/WScode/sdk/vscode/flash_debug",
+        "CMAKE_LIBRARY_OUTPUT_DIRECTORY": "C:/nxp/GUI-Guider-Projects/WScode/WScode/sdk/vscode/flash_debug",
+        "CMAKE_ARCHIVE_OUTPUT_DIRECTORY": "C:/nxp/GUI-Guider-Projects/WScode/WScode/sdk/vscode/flash_debug"
       }
     },
     {
       "name": "release",
       "displayName": "release",
       "generator": "Ninja",
-      "binaryDir": "${fileDir}/${presetName}",
-      "toolchainFile": "$env{SdkRootDirPath}/tools/cmake_toolchain_files/armgcc.cmake",
+      "binaryDir": "C:/nxp/GUI-Guider-Projects/WScode/WScode/sdk/vscode/release",
+      "toolchainFile": "C:/nxp/GUI-Guider-Projects/WScode/WScode/sdk/armgcc/armgcc.cmake",
       "inherits": "release-env",
       "cacheVariables": {
-        "POSTPROCESS_UTILITY": "$env{POSTPROCESS_UTILITY}",
+        "CMAKE_MAKE_PROGRAM": "C:/Users/VC/.mcuxpressotools/ninja-1.12.1/ninja.exe",
+        "POSTPROCESS_UTILITY": "C:/Users/VC/.mcuxpressotools/mcux-fixelf-14.2.2/mcux-fixelf.exe",
         "LIBRARY_TYPE": "NEWLIB",
         "LANGUAGE": "C",
         "DEBUG_CONSOLE": "UART",
         "CMAKE_BUILD_TYPE": "release",
-        "SdkRootDirPath": "$env{SdkRootDirPath}",
-        "CMAKE_RUNTIME_OUTPUT_DIRECTORY": "$env{binaryDir}",
-        "CMAKE_LIBRARY_OUTPUT_DIRECTORY": "$env{binaryDir}",
-        "CMAKE_ARCHIVE_OUTPUT_DIRECTORY": "$env{binaryDir}"
+        "SdkRootDirPath": "C:/nxp/GUI-Guider-Projects/WScode/WScode/sdk",
+        "CMAKE_RUNTIME_OUTPUT_DIRECTORY": "C:/nxp/GUI-Guider-Projects/WScode/WScode/sdk/vscode/release",
+        "CMAKE_LIBRARY_OUTPUT_DIRECTORY": "C:/nxp/GUI-Guider-Projects/WScode/WScode/sdk/vscode/release",
+        "CMAKE_ARCHIVE_OUTPUT_DIRECTORY": "C:/nxp/GUI-Guider-Projects/WScode/WScode/sdk/vscode/release"
       }
     },
     {
       "name": "flash_release",
       "displayName": "flash_release",
       "generator": "Ninja",
-      "binaryDir": "${fileDir}/${presetName}",
-      "toolchainFile": "$env{SdkRootDirPath}/tools/cmake_toolchain_files/armgcc.cmake",
+      "binaryDir": "C:/nxp/GUI-Guider-Projects/WScode/WScode/sdk/vscode/flash_release",
+      "toolchainFile": "C:/nxp/GUI-Guider-Projects/WScode/WScode/sdk/armgcc/armgcc.cmake",
       "inherits": "flash_release-env",
       "cacheVariables": {
-        "POSTPROCESS_UTILITY": "$env{POSTPROCESS_UTILITY}",
+        "CMAKE_MAKE_PROGRAM": "C:/Users/VC/.mcuxpressotools/ninja-1.12.1/ninja.exe",
+        "POSTPROCESS_UTILITY": "C:/Users/VC/.mcuxpressotools/mcux-fixelf-14.2.2/mcux-fixelf.exe",
         "LIBRARY_TYPE": "NEWLIB",
         "LANGUAGE": "C",
         "DEBUG_CONSOLE": "UART",
         "CMAKE_BUILD_TYPE": "flash_release",
-        "SdkRootDirPath": "$env{SdkRootDirPath}",
-        "CMAKE_RUNTIME_OUTPUT_DIRECTORY": "$env{binaryDir}",
-        "CMAKE_LIBRARY_OUTPUT_DIRECTORY": "$env{binaryDir}",
-        "CMAKE_ARCHIVE_OUTPUT_DIRECTORY": "$env{binaryDir}"
+        "SdkRootDirPath": "C:/nxp/GUI-Guider-Projects/WScode/WScode/sdk",
+        "CMAKE_RUNTIME_OUTPUT_DIRECTORY": "C:/nxp/GUI-Guider-Projects/WScode/WScode/sdk/vscode/flash_release",
+        "CMAKE_LIBRARY_OUTPUT_DIRECTORY": "C:/nxp/GUI-Guider-Projects/WScode/WScode/sdk/vscode/flash_release",
+        "CMAKE_ARCHIVE_OUTPUT_DIRECTORY": "C:/nxp/GUI-Guider-Projects/WScode/WScode/sdk/vscode/flash_release"
       }
     }
   ],

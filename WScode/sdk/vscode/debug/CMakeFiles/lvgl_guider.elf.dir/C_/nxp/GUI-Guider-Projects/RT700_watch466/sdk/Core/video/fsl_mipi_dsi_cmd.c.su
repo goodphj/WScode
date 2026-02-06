@@ -1,0 +1,17 @@
+C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/video/fsl_mipi_dsi_cmd.c:21:10:MIPI_DSI_DCS_SoftReset	40	static
+C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/video/fsl_mipi_dsi_cmd.c:34:10:MIPI_DSI_DCS_SetDisplayOn	40	static
+C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/video/fsl_mipi_dsi_cmd.c:56:10:MIPI_DSI_DCS_SetPixelFormat	40	static
+C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/video/fsl_mipi_dsi_cmd.c:74:10:MIPI_DSI_DCS_EnterSleepMode	40	static
+C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/video/fsl_mipi_dsi_cmd.c:96:10:MIPI_DSI_DCS_EnterPartialMode	40	static
+C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/video/fsl_mipi_dsi_cmd.c:118:10:MIPI_DSI_DCS_EnterInvertMode	40	static
+C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/video/fsl_mipi_dsi_cmd.c:140:10:MIPI_DSI_DCS_EnterIdleMode	40	static
+C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/video/fsl_mipi_dsi_cmd.c:162:10:MIPI_DSI_DCS_Write	48	static
+C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/video/fsl_mipi_dsi_cmd.c:191:10:MIPI_DSI_GenericWrite	48	static
+C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/video/fsl_mipi_dsi_cmd.c:219:10:MIPI_DSI_DCS_SetMaxReturnPktSize	40	static
+C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/video/fsl_mipi_dsi_cmd.c:231:10:MIPI_DSI_GenericRead	48	static
+C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/video/fsl_mipi_dsi_cmd.c:270:10:MIPI_DSI_ReadCMD	40	static
+C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/video/fsl_mipi_dsi_cmd.c:284:10:MIPI_DSI_SelectArea	56	static
+C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/video/fsl_mipi_dsi_cmd.c:318:10:MIPI_DSI_WriteMemory	24	static
+C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/video/fsl_mipi_dsi_cmd.c:323:10:MIPI_DSI_WriteMemory2D	40	static
+C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/video/fsl_mipi_dsi_cmd.c:336:6:MIPI_DSI_SetMemoryDoneCallback	24	static
+C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/video/fsl_mipi_dsi_cmd.c:342:6:MIPI_DSI_MemoryDoneDriverCallback	24	static

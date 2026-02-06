@@ -1,0 +1,6 @@
+C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/drivers/fsl_flexio_mculcd.h:546:20:FLEXIO_MCULCD_StartTransfer	16	static
+C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/drivers/fsl_flexio_mculcd.h:560:20:FLEXIO_MCULCD_StopTransfer	16	static
+C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/video/fsl_dbi_flexio_edma.c:193:13:DBI_FLEXIO_EDMA_TransferCompletedCallback	32	static
+C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/video/fsl_dbi_flexio_edma.c:208:10:DBI_FLEXIO_EDMA_CreateHandle	32	static
+C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/video/fsl_dbi_flexio_edma.c:223:10:DBI_FLEXIO_EDMA_WriteCommandData	32	static
+C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/video/fsl_dbi_flexio_edma.c:279:10:DBI_FLEXIO_EDMA_WriteMemory	56	static

@@ -1,0 +1,5 @@
+C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/lcdc/fsl_ssd1963.c:81:13:SSD1963_Delay	16	static
+C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/lcdc/fsl_ssd1963.c:92:17:SSD1963_GetPllDivider	64	static
+C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/lcdc/fsl_ssd1963.c:542:10:SSD1963_Init	72	static
+C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/lcdc/fsl_ssd1963.c:647:10:SSD1963_SetPixelFormat	32	static
+C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/lcdc/fsl_ssd1963.c:682:10:SSD1963_SetBackLight	32	static

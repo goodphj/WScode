@@ -1,0 +1,8 @@
+{
+  "cmake.sourceDirectory": "${workspaceFolder}/sdk/vscode",
+  "cmake.useCMakePresets": "always",
+  "cmake.configurePreset": "flash_debug",
+  "cmake.buildPreset": "flash_debug",
+  "cmake.generator": "Ninja",
+  "cmake.makeProgram": "C:/Users/VC/.mcuxpressotools/ninja-1.12.1/ninja.exe"
+}

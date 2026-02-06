@@ -1,0 +1,4 @@
+C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/lvgl/src/core/lv_obj_style.h:196:20:lv_obj_set_style_pad_all	24	static
+C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/lvgl/src/others/sysmon/lv_sysmon.c:63:6:lv_sysmon_builtin_init	4	static
+C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/lvgl/src/others/sysmon/lv_sysmon.c:73:6:lv_sysmon_builtin_deinit	4	static
+C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/lvgl/src/others/sysmon/lv_sysmon.c:80:12:lv_sysmon_create	32	static

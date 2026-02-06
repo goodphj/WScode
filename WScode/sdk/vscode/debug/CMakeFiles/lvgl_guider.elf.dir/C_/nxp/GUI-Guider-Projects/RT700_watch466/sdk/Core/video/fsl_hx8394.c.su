@@ -1,0 +1,4 @@
+C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/video/fsl_hx8394.c:98:10:HX8394_Init	48	static
+C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/video/fsl_hx8394.c:159:10:HX8394_Deinit	24	static
+C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/video/fsl_hx8394.c:172:10:HX8394_Start	24	static
+C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/video/fsl_hx8394.c:180:10:HX8394_Stop	24	static

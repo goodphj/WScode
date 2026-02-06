@@ -1,0 +1,9 @@
+C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/drivers/fsl_iopctl.h:91:22:IOPCTL_PinMuxSet	24	static
+C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/source/pin_mux.c:35:6:BOARD_InitBootPins	8	static
+C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/source/pin_mux.c:63:6:BOARD_InitMipiPanelPins	24	static
+C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/source/pin_mux.c:169:6:BOARD_InitUARTPins	16	static
+C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/source/pin_mux.c:245:6:BOARD_InitFlexIOPanelPins	64	static
+C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/source/pin_mux.c:567:6:BOARD_InitLcdDBIPanelPins	64	static
+C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/source/pin_mux.c:868:6:BOARD_InitMipiTouchPanelPins	24	static
+C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/source/pin_mux.c:962:6:BOARD_InitPsRamPins_Xspi2	96	static
+C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/source/pin_mux.c:1417:6:BOARD_InitI2c8	16	static

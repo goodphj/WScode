@@ -1,0 +1,38 @@
+{
+  "version": 7,
+  "cmakeMinimumRequired": {
+    "major": 3
+  },
+  "configurePresets": [
+    {
+      "name": "flash_debug",
+      "displayName": "Flash Debug",
+      "description": "Debug build for flash",
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/build/flash_debug",
+      "toolchainFile": "${sourceDir}/../armgcc/armgcc.cmake",
+      "inherits": "flash_debug-env",
+      "cacheVariables": {
+        "CMAKE_MAKE_PROGRAM": "C:/Users/VC/.mcuxpressotools/ninja-1.12.1/ninja.exe",
+        "POSTPROCESS_UTILITY": "C:/Users/VC/.mcuxpressotools/mcux-fixelf-14.2.2/mcux-fixelf.exe",
+        "LIBRARY_TYPE": "NEWLIB",
+        "LANGUAGE": "C",
+        "DEBUG_CONSOLE": "UART",
+        "CMAKE_BUILD_TYPE": "flash_debug",
+        "SdkRootDirPath": "${sourceDir}/..",
+        "CMAKE_RUNTIME_OUTPUT_DIRECTORY": "${binaryDir}",
+        "CMAKE_LIBRARY_OUTPUT_DIRECTORY": "${binaryDir}",
+        "CMAKE_ARCHIVE_OUTPUT_DIRECTORY": "${binaryDir}"
+      }
+    }
+  ],
+  "buildPresets": [
+    {
+      "name": "flash_debug",
+      "configurePreset": "flash_debug"
+    }
+  ],
+  "include": [
+    "sdk/vscode/mcux_include.json"
+  ]
+}

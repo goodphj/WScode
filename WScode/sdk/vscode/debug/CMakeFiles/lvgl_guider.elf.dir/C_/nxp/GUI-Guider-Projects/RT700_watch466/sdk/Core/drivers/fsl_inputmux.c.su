@@ -1,0 +1,5 @@
+C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/drivers/fsl_reset.h:465:20:RESET_ReleasePeripheralReset	16	static
+C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/drivers/fsl_inputmux.c:70:17:INPUTMUX_GetInstance	24	static
+C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/drivers/fsl_inputmux.c:98:6:INPUTMUX_Init	16	static
+C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/drivers/fsl_inputmux.c:133:6:INPUTMUX_AttachSignal	32	static
+C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/drivers/fsl_inputmux.c:202:6:INPUTMUX_Deinit	16	static

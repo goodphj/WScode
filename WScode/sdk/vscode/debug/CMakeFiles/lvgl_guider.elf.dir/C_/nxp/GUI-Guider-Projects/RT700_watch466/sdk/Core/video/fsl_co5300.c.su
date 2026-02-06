@@ -1,0 +1,4 @@
+C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/video/fsl_co5300.c:68:10:CO5300_Init	40	static
+C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/video/fsl_co5300.c:155:10:CO5300_Deinit	24	static
+C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/video/fsl_co5300.c:168:10:CO5300_Start	24	static
+C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/video/fsl_co5300.c:176:10:CO5300_Stop	24	static

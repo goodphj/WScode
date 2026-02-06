@@ -1,0 +1,6 @@
+C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/CMSIS/core_cm33.h:2358:22:__NVIC_EnableIRQ	16	static
+C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/CMSIS/core_cm33.h:2555:22:__NVIC_SetPriority	16	static
+C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/drivers/fsl_common_arm.h:678:24:EnableIRQ	24	static
+C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/source/vglite_support.c:44:6:VGPU_DriverIRQHandler	8	static
+C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/source/vglite_support.c:49:17:BOARD_InitVGliteClock	8	static
+C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/source/vglite_support.c:71:10:BOARD_PrepareVGLiteController	48	static

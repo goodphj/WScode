@@ -1,0 +1,4 @@
+C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/touchpanel/fsl_tma525b.c:60:10:TMA525B_Init	48	static
+C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/touchpanel/fsl_tma525b.c:114:10:TMA525B_Deinit	24	static
+C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/touchpanel/fsl_tma525b.c:140:10:TMA525B_GetSingleTouch	56	static
+C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/touchpanel/fsl_tma525b.c:197:10:TMA525B_GetMultiTouch	56	static
