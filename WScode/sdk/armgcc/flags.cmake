@@ -153,7 +153,7 @@ SET(CMAKE_C_FLAGS_RELEASE " \
     -DBOOT_HEADER_ENABLE=1 \
     -DLV_CONF_INCLUDE_SIMPLE=1 \
     -DSDK_OS_FREE_RTOS \
-    -Os \
+    -O2 \
     -Wall \
     -fno-common \
     -ffunction-sections \
@@ -188,7 +188,7 @@ SET(CMAKE_C_FLAGS_FLASH_RELEASE " \
     -DBOOT_HEADER_ENABLE=1 \
     -DLV_CONF_INCLUDE_SIMPLE=1 \
     -DSDK_OS_FREE_RTOS \
-    -Os \
+    -O2 \
     -Wall \
     -fno-common \
     -ffunction-sections \
@@ -267,7 +267,7 @@ SET(CMAKE_CXX_FLAGS_RELEASE " \
     -DBOOT_HEADER_ENABLE=1 \
     -DLV_CONF_INCLUDE_SIMPLE=1 \
     -DSDK_OS_FREE_RTOS \
-    -Os \
+    -O2 \
     -Wall \
     -fno-common \
     -ffunction-sections \
@@ -293,7 +293,7 @@ SET(CMAKE_CXX_FLAGS_FLASH_RELEASE " \
     -DBOOT_HEADER_ENABLE=1 \
     -DLV_CONF_INCLUDE_SIMPLE=1 \
     -DSDK_OS_FREE_RTOS \
-    -Os \
+    -O2 \
     -Wall \
     -fno-common \
     -ffunction-sections \
