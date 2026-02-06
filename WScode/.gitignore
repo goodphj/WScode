@@ -1,0 +1,5 @@
+sdk/armgcc/build/
+temp/
+sdk/vscode/build/
+sdk/vscode/flash_debug/
+
