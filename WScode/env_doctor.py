@@ -38,20 +38,22 @@ def check_structure():
     return True
 
 def check_compiler():
-    print("\n[2] Checking Toolchain (arm-none-eabi-gcc)...")
-    try:
-        # Check if compiler is in PATH
-        result = subprocess.run(["arm-none-eabi-gcc", "--version"], stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
-        if result.returncode == 0:
-            version_line = result.stdout.splitlines()[0]
-            print_status(f"Found: {version_line}", True)
-            return True
-        else:
-            print_status("Compiler command failed to run.", False)
-            return False
-    except FileNotFoundError:
-        print_status("arm-none-eabi-gcc not found in PATH.", False)
-        return False
+    print("\n[2] Checking Toolchain...")
+    tools = ["arm-none-eabi-gcc", "arm-none-eabi-objcopy", "ninja"]
+    all_found = True
+    
+    for tool in tools:
+        try:
+            result = subprocess.run([tool, "--version"], stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+            if result.returncode == 0:
+                print_status(f"Found: {tool}", True)
+            else:
+                print_status(f"Failed to run: {tool}", False)
+                all_found = False
+        except FileNotFoundError:
+            print_status(f"Not found in PATH: {tool}", False)
+            all_found = False
+    return all_found
 
 def update_vscode_config():
     print("\n[3] Updating VS Code Configuration...")
@@ -113,7 +115,14 @@ def update_vscode_config():
 
 def check_build_artifacts():
     print("\n[4] Checking Stale Build Artifacts...")
-    build_dirs = ["build", "cmake-build-debug", "Debug", "Release"]
+    build_dirs = [
+        "build", 
+        "cmake-build-debug", 
+        "Debug", 
+        "Release",
+        os.path.join("sdk", "vscode", "flash_debug"),
+        os.path.join("sdk", "vscode", "flash_release")
+    ]
     found_dirs = [d for d in build_dirs if os.path.exists(d)]
     
     if found_dirs:
