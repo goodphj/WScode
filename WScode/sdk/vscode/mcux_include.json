@@ -14,7 +14,8 @@
         "POSTPROCESS_UTILITY": "C:/Users/VC/.mcuxpressotools/mcux-fixelf-14.2.2/mcux-fixelf.exe",
         "MCUX_VENV_PATH": "C:/Users/VC/.mcuxpressotools/.venv_3_13/Scripts",
         "NINJA_PATH": "C:/Users/VC/.mcuxpressotools/ninja-1.12.1",
-        "CMAKE_EXPORT_COMPILE_COMMANDS": "ON"
+        "CMAKE_EXPORT_COMPILE_COMMANDS": "ON",
+        "PATH": "$env{MCUX_VENV_PATH}${pathListSep}$penv{PATH}"
       },
       "cacheVariables": {}
     },
@@ -57,6 +58,62 @@
         "POSTPROCESS_UTILITY": "C:/Users/VC/.mcuxpressotools/mcux-fixelf-14.2.2/mcux-fixelf.exe",
         "MCUX_VENV_PATH": "C:/Users/VC/.mcuxpressotools/.venv_3_13/Scripts",
         "NINJA_PATH": "C:/Users/VC/.mcuxpressotools/ninja-1.12.1",
+        "CMAKE_EXPORT_COMPILE_COMMANDS": "ON"
+      },
+      "cacheVariables": {}
+    },
+    {
+      "name": "debug_1-env",
+      "displayName": "debug_1-env",
+      "hidden": true,
+      "environment": {
+        "ARMGCC_DIR": "C:/NXP/MCUXpressoIDE_25.6.136/ide/tools",
+        "MCUX_VENV_PATH": "C:/Users/VC/.mcuxpressotools/.venv_3_13/Scripts",
+        "PATH": "$env{MCUX_VENV_PATH}${pathListSep}$penv{PATH}",
+        "SdkRootDirPath": "",
+        "POSTPROCESS_UTILITY": "C:/Users/VC/.mcuxpressotools/mcux-fixelf-14.2.2/mcux-fixelf.exe",
+        "CMAKE_EXPORT_COMPILE_COMMANDS": "ON"
+      },
+      "cacheVariables": {}
+    },
+    {
+      "name": "flash_debug_1-env",
+      "displayName": "flash_debug_1-env",
+      "hidden": true,
+      "environment": {
+        "ARMGCC_DIR": "C:/NXP/MCUXpressoIDE_25.6.136/ide/tools",
+        "MCUX_VENV_PATH": "C:/Users/VC/.mcuxpressotools/.venv_3_13/Scripts",
+        "PATH": "$env{MCUX_VENV_PATH}${pathListSep}$penv{PATH}",
+        "SdkRootDirPath": "",
+        "POSTPROCESS_UTILITY": "C:/Users/VC/.mcuxpressotools/mcux-fixelf-14.2.2/mcux-fixelf.exe",
+        "CMAKE_EXPORT_COMPILE_COMMANDS": "ON"
+      },
+      "cacheVariables": {}
+    },
+    {
+      "name": "debug_2-env",
+      "displayName": "debug_2-env",
+      "hidden": true,
+      "environment": {
+        "ARMGCC_DIR": "C:/NXP/MCUXpressoIDE_25.6.136/ide/tools",
+        "MCUX_VENV_PATH": "C:/Users/VC/.mcuxpressotools/.venv_3_13/Scripts",
+        "PATH": "$env{MCUX_VENV_PATH}${pathListSep}$penv{PATH}",
+        "SdkRootDirPath": "",
+        "POSTPROCESS_UTILITY": "C:/Users/VC/.mcuxpressotools/mcux-fixelf-14.2.2/mcux-fixelf.exe",
+        "CMAKE_EXPORT_COMPILE_COMMANDS": "ON"
+      },
+      "cacheVariables": {}
+    },
+    {
+      "name": "flash_debug_1_1-env",
+      "displayName": "flash_debug_1_1-env",
+      "hidden": true,
+      "environment": {
+        "ARMGCC_DIR": "C:/NXP/MCUXpressoIDE_25.6.136/ide/tools",
+        "MCUX_VENV_PATH": "C:/Users/VC/.mcuxpressotools/.venv_3_13/Scripts",
+        "PATH": "$env{MCUX_VENV_PATH}${pathListSep}$penv{PATH}",
+        "SdkRootDirPath": "",
+        "POSTPROCESS_UTILITY": "C:/Users/VC/.mcuxpressotools/mcux-fixelf-14.2.2/mcux-fixelf.exe",
         "CMAKE_EXPORT_COMPILE_COMMANDS": "ON"
       },
       "cacheVariables": {}

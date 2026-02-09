@@ -1,9 +1,0 @@
-C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/video/fsl_fbdev.c:27:10:FBDEV_Open	40	static
-C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/video/fsl_fbdev.c:69:10:FBDEV_Close	24	static
-C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/video/fsl_fbdev.c:90:10:FBDEV_Enable	24	static
-C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/video/fsl_fbdev.c:124:10:FBDEV_Disable	24	static
-C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/video/fsl_fbdev.c:151:6:FBDEV_GetFrameBufferInfo	24	static
-C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/video/fsl_fbdev.c:156:10:FBDEV_SetFrameBufferInfo	40	static
-C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/video/fsl_fbdev.c:194:7:FBDEV_GetFrameBuffer	24	static
-C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/video/fsl_fbdev.c:216:10:FBDEV_SetFrameBuffer	32	static
-C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/video/fsl_fbdev.c:233:13:FBDEV_BufferSwitchOffCallback	32	static

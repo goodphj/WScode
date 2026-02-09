@@ -1,4 +1,0 @@
-C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/video/fsl_rpi.c:38:10:RPI_Init	40	static
-C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/video/fsl_rpi.c:99:10:RPI_Deinit	24	static
-C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/video/fsl_rpi.c:109:10:RPI_Start	24	static
-C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/video/fsl_rpi.c:117:10:RPI_Stop	24	static

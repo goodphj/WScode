@@ -1,4 +1,0 @@
-C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/video/fsl_rm68200.c:294:10:RM68200_Init	40	static
-C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/video/fsl_rm68200.c:381:10:RM68200_Deinit	24	static
-C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/video/fsl_rm68200.c:394:10:RM68200_Start	24	static
-C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/video/fsl_rm68200.c:402:10:RM68200_Stop	24	static

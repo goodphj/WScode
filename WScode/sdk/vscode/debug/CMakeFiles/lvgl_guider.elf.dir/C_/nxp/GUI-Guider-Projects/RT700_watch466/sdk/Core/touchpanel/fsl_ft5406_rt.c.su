@@ -1,5 +1,0 @@
-C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/touchpanel/fsl_ft5406_rt.c:35:10:FT5406_RT_Init	32	static
-C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/touchpanel/fsl_ft5406_rt.c:76:10:FT5406_RT_Denit	16	static
-C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/touchpanel/fsl_ft5406_rt.c:87:17:FT5406_RT_ReadTouchData	16	static
-C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/touchpanel/fsl_ft5406_rt.c:97:10:FT5406_RT_GetSingleTouch	40	static
-C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/touchpanel/fsl_ft5406_rt.c:132:10:FT5406_RT_GetMultiTouch	40	static

@@ -1,5 +1,0 @@
-C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/lvgl/src/core/lv_obj_style_gen.h:682:24:lv_obj_get_style_layout	24	static
-C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/lvgl/src/layouts/lv_layout.c:39:6:lv_layout_init	8	static
-C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/lvgl/src/layouts/lv_layout.c:53:6:lv_layout_deinit	8	static
-C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/lvgl/src/layouts/lv_layout.c:58:10:lv_layout_register	16	static
-C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/lvgl/src/layouts/lv_layout.c:68:6:lv_layout_apply	24	static

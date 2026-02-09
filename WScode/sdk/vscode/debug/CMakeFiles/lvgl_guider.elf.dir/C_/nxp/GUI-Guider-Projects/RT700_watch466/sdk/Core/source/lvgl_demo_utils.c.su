@@ -1,4 +1,0 @@
-C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/source/lvgl_demo_utils.c:24:6:DEMO_InitUsTimer	8	static
-C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/source/lvgl_demo_utils.c:33:10:DEMO_GetUsTimer	64	static
-C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/source/lvgl_demo_utils.c:49:10:DEMO_GetUsElapsed	40	static
-C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/source/lvgl_demo_utils.c:71:10:DEMO_GetCpuClockFreq	4	static

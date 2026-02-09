@@ -1,4 +1,0 @@
-C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/touchpanel/fsl_ft3267.c:38:10:FT3267_Init	16	static
-C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/touchpanel/fsl_ft3267.c:68:10:FT3267_Deinit	24	static
-C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/touchpanel/fsl_ft3267.c:94:10:FT3267_GetSingleTouch	56	static
-C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/touchpanel/fsl_ft3267.c:130:10:FT3267_GetMultiTouch	56	static

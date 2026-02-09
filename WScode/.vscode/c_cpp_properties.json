@@ -1,15 +1,45 @@
 {
-  "version": 4,
   "configurations": [
     {
-      "name": "IntelliSense Configuration",
-      "compileCommands": [
-        "${workspaceFolder}/sdk/vscode/flash_debug/compile_commands.json"
-      ],
-      "intelliSenseMode": "gcc-arm",
+      "name": "NXP i.MX RT700",
       "includePath": [
-        "${workspaceFolder}/**"
-      ]
+        "${workspaceFolder}/**",
+        "${workspaceFolder}/generated",
+        "${workspaceFolder}/custom",
+        "${workspaceFolder}/source",
+        "${workspaceFolder}/board",
+        "${workspaceFolder}/sdk"
+      ],
+      "compileCommands": "${workspaceFolder}/sdk/vscode/flash_debug/compile_commands.json",
+      "defines": [
+        "CPU_MIMXRT798SGFOA",
+        "CPU_MIMXRT798SGFOA_cm33",
+        "CPU_MIMXRT798SGFOA_cm33_core0",
+        "MCUXPRESSO_SDK",
+        "SDK_DEBUGCONSOLE=1",
+        "MCUX_META_BUILD",
+        "MIMXRT798S_cm33_core0_SERIES",
+        "BOOT_HEADER_ENABLE=1",
+        "LV_CONF_INCLUDE_SIMPLE=1",
+        "SDK_OS_FREE_RTOS",
+        "__MCUXPRESSO",
+        "__USE_CMSIS",
+        "DEBUG",
+        "__NEWLIB__"
+      ],
+      "forcedInclude": [
+        "${workspaceFolder}/source/mcux_config.h"
+      ],
+      "compilerPath": "C:\\NXP\\MCUXpressoIDE_25.6.136\\ide\\tools\\bin\\arm-none-eabi-gcc.exe",
+      "cStandard": "c99",
+      "cppStandard": "c++11",
+      "intelliSenseMode": "gcc-arm"
+    },
+    {
+      "name": "IntelliSense Configuration",
+      "compileCommands": [],
+      "intelliSenseMode": "gcc-arm"
     }
-  ]
+  ],
+  "version": 4
 }

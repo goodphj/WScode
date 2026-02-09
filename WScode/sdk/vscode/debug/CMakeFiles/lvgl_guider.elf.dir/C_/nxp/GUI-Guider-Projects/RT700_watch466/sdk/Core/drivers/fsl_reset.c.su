@@ -1,3 +1,0 @@
-C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/drivers/fsl_reset.c:38:6:RESET_SetPeripheralReset	32	static
-C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/drivers/fsl_reset.c:138:6:RESET_ClearPeripheralReset	32	static
-C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/drivers/fsl_reset.c:239:6:RESET_PeripheralReset	16	static

@@ -1,6 +1,0 @@
-C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/drivers/fsl_clock.h:2435:20:CLOCK_SetXtalFreq	16	static
-C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/board/clock_config.c:47:6:BOARD_InitBootClocks	8	static
-C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/board/clock_config.c:344:6:BOARD_BootClockRUN_InitClockModule	16	static
-C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/board/clock_config.c:484:6:BOARD_BootClockRUN	8	static
-C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/board/clock_config.c:788:6:BOARD_BootClockHSRUN_InitClockModule	16	static
-C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/board/clock_config.c:929:6:BOARD_BootClockHSRUN	8	static

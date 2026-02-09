@@ -28,7 +28,7 @@
       "name": "flash_debug",
       "displayName": "flash_debug",
       "generator": "Ninja",
-      "binaryDir": "C:/nxp/GUI-Guider-Projects/WScode/WScode/sdk/vscode/flash_debug",
+      "binaryDir": "c:/nxp/GUI-Guider-Projects/WScode/WScode/sdk/vscode/flash_debug",
       "toolchainFile": "C:/nxp/GUI-Guider-Projects/WScode/WScode/sdk/armgcc/armgcc.cmake",
       "inherits": "flash_debug-env",
       "cacheVariables": {
@@ -83,6 +83,74 @@
         "CMAKE_LIBRARY_OUTPUT_DIRECTORY": "C:/nxp/GUI-Guider-Projects/WScode/WScode/sdk/vscode/flash_release",
         "CMAKE_ARCHIVE_OUTPUT_DIRECTORY": "C:/nxp/GUI-Guider-Projects/WScode/WScode/sdk/vscode/flash_release"
       }
+    },
+    {
+      "name": "debug_1",
+      "displayName": "debug_1",
+      "generator": "Ninja",
+      "toolchainFile": "${sourceDir}/armgcc.cmake",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "debug",
+        "CMAKE_MAKE_PROGRAM": "C:/Users/VC/.mcuxpressotools/ninja-1.12.1/ninja.exe",
+        "POSTPROCESS_UTILITY": "C:/Users/VC/.mcuxpressotools/mcux-fixelf-14.2.2/mcux-fixelf.exe",
+        "LIBRARY_TYPE": "NEWLIB",
+        "LANGUAGE": "C",
+        "DEBUG_CONSOLE": "UART",
+        "SdkRootDirPath": "C:/nxp/GUI-Guider-Projects/WScode/WScode/sdk"
+      },
+      "inherits": "debug_1-env",
+      "binaryDir": "c:/nxp/GUI-Guider-Projects/WScode/WScode/sdk/vscode/debug"
+    },
+    {
+      "name": "flash_debug_1",
+      "displayName": "flash_debug_1",
+      "generator": "Ninja",
+      "toolchainFile": "${sourceDir}/armgcc.cmake",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "flash_debug",
+        "CMAKE_MAKE_PROGRAM": "C:/Users/VC/.mcuxpressotools/ninja-1.12.1/ninja.exe",
+        "POSTPROCESS_UTILITY": "C:/Users/VC/.mcuxpressotools/mcux-fixelf-14.2.2/mcux-fixelf.exe",
+        "LIBRARY_TYPE": "NEWLIB",
+        "LANGUAGE": "C",
+        "DEBUG_CONSOLE": "UART",
+        "SdkRootDirPath": "C:/nxp/GUI-Guider-Projects/WScode/WScode/sdk"
+      },
+      "inherits": "flash_debug_1-env",
+      "binaryDir": "c:/nxp/GUI-Guider-Projects/WScode/WScode/sdk/vscode/flash_debug"
+    },
+    {
+      "name": "debug_2",
+      "displayName": "debug_2",
+      "generator": "Ninja",
+      "toolchainFile": "${sourceDir}/armgcc.cmake",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "debug",
+        "CMAKE_MAKE_PROGRAM": "C:/Users/VC/.mcuxpressotools/ninja-1.12.1/ninja.exe",
+        "POSTPROCESS_UTILITY": "C:/Users/VC/.mcuxpressotools/mcux-fixelf-14.2.2/mcux-fixelf.exe",
+        "LIBRARY_TYPE": "NEWLIB",
+        "LANGUAGE": "C",
+        "DEBUG_CONSOLE": "UART",
+        "SdkRootDirPath": "C:/nxp/GUI-Guider-Projects/WScode/WScode/sdk"
+      },
+      "inherits": "debug_2-env",
+      "binaryDir": "c:/nxp/GUI-Guider-Projects/WScode/WScode/sdk/vscode/debug"
+    },
+    {
+      "name": "flash_debug_1_1",
+      "displayName": "flash_debug_1_1",
+      "generator": "Ninja",
+      "toolchainFile": "${sourceDir}/armgcc.cmake",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "flash_debug",
+        "CMAKE_MAKE_PROGRAM": "C:/Users/VC/.mcuxpressotools/ninja-1.12.1/ninja.exe",
+        "POSTPROCESS_UTILITY": "C:/Users/VC/.mcuxpressotools/mcux-fixelf-14.2.2/mcux-fixelf.exe",
+        "LIBRARY_TYPE": "NEWLIB",
+        "LANGUAGE": "C",
+        "DEBUG_CONSOLE": "UART",
+        "SdkRootDirPath": "C:/nxp/GUI-Guider-Projects/WScode/WScode/sdk"
+      },
+      "inherits": "flash_debug_1_1-env",
+      "binaryDir": "c:/nxp/GUI-Guider-Projects/WScode/WScode/sdk/vscode/flash_debug"
     }
   ],
   "buildPresets": [
@@ -105,6 +173,26 @@
       "name": "flash_release",
       "displayName": "flash_release",
       "configurePreset": "flash_release"
+    },
+    {
+      "name": "debug_1",
+      "displayName": "debug_1",
+      "configurePreset": "debug_1"
+    },
+    {
+      "name": "flash_debug_1",
+      "displayName": "flash_debug_1",
+      "configurePreset": "flash_debug_1"
+    },
+    {
+      "name": "debug_2",
+      "displayName": "debug_2",
+      "configurePreset": "debug_2"
+    },
+    {
+      "name": "flash_debug_1_1",
+      "displayName": "flash_debug_1_1",
+      "configurePreset": "flash_debug_1_1"
     }
   ],
   "include": [

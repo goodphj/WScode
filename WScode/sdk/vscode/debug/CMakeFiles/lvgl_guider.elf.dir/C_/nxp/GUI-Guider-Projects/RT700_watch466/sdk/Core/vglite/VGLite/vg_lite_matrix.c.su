@@ -1,5 +1,0 @@
-C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/vglite/VGLite/vg_lite_matrix.c:33:17:vg_lite_identity	16	static
-C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/vglite/VGLite/vg_lite_matrix.c:57:13:multiply	72	static
-C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/vglite/VGLite/vg_lite_matrix.c:77:17:vg_lite_translate	72	static
-C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/vglite/VGLite/vg_lite_matrix.c:99:17:vg_lite_scale	72	static
-C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/vglite/VGLite/vg_lite_matrix.c:126:17:vg_lite_rotate	80	static

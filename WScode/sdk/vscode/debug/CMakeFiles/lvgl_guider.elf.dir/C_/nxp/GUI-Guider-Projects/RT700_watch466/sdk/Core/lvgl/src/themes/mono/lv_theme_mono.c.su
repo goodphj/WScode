@@ -1,9 +1,0 @@
-C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/lvgl/src/misc/lv_style.h:531:20:lv_style_set_pad_all	16	static
-C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/lvgl/src/misc/lv_style.h:551:20:lv_style_set_pad_gap	16	static
-C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/lvgl/src/themes/mono/lv_theme_mono.c:86:13:style_init	96	static
-C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/lvgl/src/themes/mono/lv_theme_mono.c:183:6:lv_theme_mono_is_inited	16	static
-C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/lvgl/src/themes/mono/lv_theme_mono.c:190:6:lv_theme_mono_deinit	24	static
-C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/lvgl/src/themes/mono/lv_theme_mono.c:206:14:lv_theme_mono_init	40	static
-C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/lvgl/src/themes/mono/lv_theme_mono.c:232:13:theme_apply	24	static
-C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/lvgl/src/themes/mono/lv_theme_mono.c:518:14:lv_theme_mono_get	8	static
-C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/lvgl/src/themes/mono/lv_theme_mono.c:530:13:style_init_reset	16	static

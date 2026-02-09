@@ -9,7 +9,7 @@
       "displayName": "Flash Debug",
       "description": "Debug build for flash",
       "generator": "Ninja",
-      "binaryDir": "${sourceDir}/build/flash_debug",
+      "binaryDir": "${sourceDir}/sdk/vscode/flash_debug",
       "toolchainFile": "${sourceDir}/../armgcc/armgcc.cmake",
       "inherits": "flash_debug-env",
       "cacheVariables": {

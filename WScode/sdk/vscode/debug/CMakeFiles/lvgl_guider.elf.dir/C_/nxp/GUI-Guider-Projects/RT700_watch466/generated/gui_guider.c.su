@@ -1,8 +1,0 @@
-C:/nxp/GUI-Guider-Projects/RT700_watch466/generated/gui_guider.c:15:6:ui_init_style	16	static
-C:/nxp/GUI-Guider-Projects/RT700_watch466/generated/gui_guider.c:23:6:ui_load_scr_animation	40	static
-C:/nxp/GUI-Guider-Projects/RT700_watch466/generated/gui_guider.c:44:6:ui_animation	120	static
-C:/nxp/GUI-Guider-Projects/RT700_watch466/generated/gui_guider.c:72:6:init_scr_del_flag	16	static
-C:/nxp/GUI-Guider-Projects/RT700_watch466/generated/gui_guider.c:113:6:setup_bottom_layer	8	static
-C:/nxp/GUI-Guider-Projects/RT700_watch466/generated/gui_guider.c:118:6:setup_ui	16	static
-C:/nxp/GUI-Guider-Projects/RT700_watch466/generated/gui_guider.c:127:6:video_play	16	static
-C:/nxp/GUI-Guider-Projects/RT700_watch466/generated/gui_guider.c:132:6:init_keyboard	16	static

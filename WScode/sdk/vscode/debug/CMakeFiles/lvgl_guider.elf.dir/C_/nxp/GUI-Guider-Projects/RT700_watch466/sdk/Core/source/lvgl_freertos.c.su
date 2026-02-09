@@ -1,3 +1,0 @@
-C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/source/lvgl_freertos.c:41:10:getIdleTaskPct	72	static
-C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/source/lvgl_freertos.c:58:6:traceTaskSwitchedOut	56	static
-C:/nxp/GUI-Guider-Projects/RT700_watch466/sdk/Core/source/lvgl_freertos.c:74:6:traceTaskSwitchedIn	8	static

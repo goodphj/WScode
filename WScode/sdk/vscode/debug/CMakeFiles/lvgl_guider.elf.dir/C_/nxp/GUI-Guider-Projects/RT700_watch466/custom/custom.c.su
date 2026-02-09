@@ -1,4 +1,0 @@
-C:/nxp/GUI-Guider-Projects/RT700_watch466/custom/custom.c:45:6:custom_init	16	static
-C:/nxp/GUI-Guider-Projects/RT700_watch466/custom/custom.c:51:13:analog_clock_timer	16	static
-C:/nxp/GUI-Guider-Projects/RT700_watch466/custom/custom.c:62:6:analog_clock_ready_cb	4	static
-C:/nxp/GUI-Guider-Projects/RT700_watch466/custom/custom.c:67:13:analog_clock_count	24	static
